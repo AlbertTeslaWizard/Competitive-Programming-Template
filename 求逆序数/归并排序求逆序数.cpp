@@ -26,7 +26,7 @@ LL merge(vector<int>& arr, int left, int right) {
     
     while(i <= mid) temp[k ++] = arr[i ++];
     while(j <= right) temp[k ++] = arr[j ++];
-    for (int p = 0; p < k; p ++) {
+    for(int p = 0; p < k; p ++) {
         arr[left + p] = temp[p];
     }
     
